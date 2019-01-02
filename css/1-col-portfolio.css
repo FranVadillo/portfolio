@@ -1,0 +1,182 @@
+/* Option1
+body {
+  padding-top: 54px;
+  /*background: url("https://www.toptal.com/designers/subtlepatterns/patterns/prism.png");*//*
+  background-color: #363434;
+  color: rgba(255, 255, 255);
+  color: #efecec;
+}
+h1, h3{
+  color: #efecec;
+}
+.navbar, .py-5{
+  background-color: rgba(188, 201, 209, 0.95);
+  background-color: #62929a;
+}
+.navbar-brand{
+  color: #363434;
+}
+.navbar-brand:hover{
+  color: rgb(25, 63, 88);
+}
+.nav-link{
+  margin: 10px;
+  color: #363434;
+}
+.nav-link:hover{
+  color: rgb(25, 63, 88);
+}
+div.row {
+  background-color: #5c5757;
+}
+
+.btn{
+  background-color: rgb(25, 63, 88);
+  border-color: rgb(230, 230, 230);
+  
+  color: rgba(232, 236, 238);
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  div.col{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
+@media (max-width: 990px){
+  div.col{
+    padding-bottom: 5%;
+  }
+  div.col .btn{
+    display: block;
+  }
+}
+.pagination {
+  margin-bottom: 15px;
+}
+*//* Opcion2
+body {
+  padding-top: 54px;
+  background-color: #ebebe3;
+  color: #ebebe3;
+}
+h1{
+  color: #5c5757;
+}
+h3{
+  color: #ebebe3;
+}
+.navbar, .py-5{
+  background-color: #4a4a48;
+}
+.navbar-brand{
+  color: #ebebe3;
+}
+.navbar-brand:hover{
+  color: #c19898;
+}
+.nav-link{
+  margin: 10px;
+  color: #ebebe3;
+}
+.nav-link:hover{
+  color: #c19898;
+}
+div.row {
+  background-color: #2b2b28;
+}
+
+.btn{
+  background-color: #c19898;
+  border-color: #c19898;
+  
+  color: #2b2b28;
+  
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  div.col{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
+@media (max-width: 990px){
+  div.col{
+    padding-bottom: 5%;
+  }
+  div.col .btn{
+    display: block;
+  }
+}
+.pagination {
+  margin-bottom: 15px;
+}
+*/
+body {
+  padding-top: 54px;
+  background-color: #1d2323;
+  color: #decdc3;
+}
+h1{
+  color: #e0e0ec;
+}
+h3{
+  color: #1d2323;
+}
+.navbar, .py-5{
+  background-color: #decdc3;
+}
+.navbar-brand{
+  color: #1d2323;
+}
+.navbar-brand:hover{
+  color: #5c848e;
+}
+.nav-link{
+  margin: 10px;
+  color: #1d2323;
+}
+.nav-link:hover{
+  color: #5c848e;
+}
+div.row {
+  background-color: #5c848e;
+}
+
+.btn{
+  background-color: #decdc3;
+  border-color: #1d2323;
+  
+  color: #1d2323;
+  
+}
+.btn:hover{
+  background-color: #1d2323;
+  border-color: #1d2323;
+  
+  color: #decdc3;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  div.col{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
+@media (max-width: 990px){
+  div.col{
+    padding-bottom: 5%;
+  }
+  div.col .btn{
+    display: block;
+  }
+}
+.pagination {
+  margin-bottom: 15px;
+}
