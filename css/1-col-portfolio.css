@@ -139,8 +139,12 @@ h3{
   color: rgb(78, 15, 54);
   font-size: 110%;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: bold;
   margin-top: 10px;
+}
+h3:hover{
+  text-decoration: underline;
+  color: rgb(6, 29, 31);
 }
 .aboutMe{
   text-align: center;
@@ -159,8 +163,8 @@ h3{
 .name{
   display:inline;
 }
-.icon{
-  font-size: 50px;
+.fa{
+  color:rgb(78, 15, 54)!important;
   margin:auto;
   text-align: center;
   opacity: 0.7;
@@ -168,6 +172,13 @@ h3{
 }
 .contact{
   text-align:left;
+}
+a{
+  color:rgb(6, 29, 31);
+}
+a:hover{
+  text-decoration: underline;
+  color: rgb(78, 15, 54);
 }
 .foot{
   font-family: 'Cinzel';
