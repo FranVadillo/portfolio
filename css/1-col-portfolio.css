@@ -117,17 +117,16 @@ div.row {
 }
 */
 body {
-  background-color: rgb(107, 107, 107);
   background-image: url("../images/background.png");
   color: rgb(6, 29, 31);
   font-family: 'Fauna One';
 }
 .container{ 
   padding-top:1%;
-  background-color: #fd5a998c;
+  background-color: rgba(255, 176, 206, 0.549);
 }
 h1{
-  color: rgb(78, 15, 54);
+  color: #4e0f36;
   text-align: center;
 }
 h2{
@@ -144,7 +143,7 @@ h3{
 }
 h3:hover{
   text-decoration: underline;
-  color: rgb(6, 29, 31);
+  color: #061d1f;
 }
 .aboutMe{
   text-align: center;
@@ -156,6 +155,8 @@ h3:hover{
 .gameImage{
   position: relative;
   top: 50%; 
+  box-shadow: 0 4px 8px 0 rgb(78, 15, 54), 0 6px 20px 0 rgb(78, 15, 54);
+  margin-bottom: 15px!important;
 }
 .games{
   font-size: large;
@@ -164,7 +165,7 @@ h3:hover{
   display:inline;
 }
 .fa{
-  color:rgb(78, 15, 54)!important;
+  color:#4e0f36!important;
   margin:auto;
   text-align: center;
   opacity: 0.7;
@@ -185,35 +186,35 @@ a:hover{
   margin: 0 45px 0 45px;
   color: #000000;
 }
-.btn{
-  background-color: #decdc3;
-  border-color: #1d2323;
-  
-  color: #1d2323;
-    
-}
-.btn:hover{
-  background-color: #1d2323;
-  border-color: #1d2323;
-  
-  color: #decdc3;
-}
 @media (max-width: 991px){
-  div.col{
-    padding-bottom: 5%;
-    font-size: medium;
-  }
   div.col .btn{
     display: block;
   }
 }
 @media (max-width: 767px){
-  div.col{
-    padding-bottom: 5%;
-    font-size: large;
+  h3{
+    font-size: 160%;
+    margin-top: 5px;
+    margin-bottom: 40px;
   }
   div.col .btn{
     display: block;
+  }
+  .gameImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .platforms{
+    display:none;
+  }
+  .me{
+    margin-top: 40px;
+  }
+  .foot{
+    font-size: medium; 
+    margin: 0 35px 20px 35px;
   }
 }
 
