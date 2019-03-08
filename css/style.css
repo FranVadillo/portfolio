@@ -1,0 +1,91 @@
+body {
+  background-image: url("../images/background.png");
+  color: rgb(6, 29, 31);
+  font-family: 'Fauna One';
+}
+.container{ 
+  padding-top:1%;
+  background-color: #ffb0ce8c;
+}
+h1{
+  color: #4e0f36;
+  text-align: center;
+}
+h2{
+  color: rgb(78, 15, 54);
+  font-size: 100%;
+  text-align: center;
+}
+h3{
+  color: rgb(78, 15, 54);
+  font-size: 110%;
+  text-align: center;
+  text-decoration: bold;
+  margin-top: 10px;
+}
+h3:hover{
+  text-decoration: underline;
+  color: #061d1f;
+}
+.aboutMe{
+  text-align: center;
+  font-size: 18.2px;
+}
+.gameImage{
+  position: relative;
+  top: 50%; 
+  box-shadow: 0 4px 8px 0 rgb(78, 15, 54), 0 6px 20px 0 rgb(78, 15, 54);
+  margin-bottom: 15px!important;
+}
+.games{
+  font-size: large;
+}
+.name{
+  display:inline;
+}
+.fa{
+  color:#4e0f36!important;
+  margin:auto;
+  text-align: center;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+.contact{
+  text-align:left;
+}
+a{
+  color:rgb(6, 29, 31);
+}
+a:hover{
+  text-decoration: underline;
+  color: rgb(78, 15, 54);
+}
+.foot{
+  font-family: 'Cinzel';
+  margin: 0 45px 0 45px;
+  color: #000000;
+}
+
+@media (max-width: 767px){
+  h3{
+    font-size: 160%;
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+  .gameImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .platforms{
+    display:none;
+  }
+  .me{
+    margin-top: 40px;
+  }
+  .foot{
+    font-size: medium; 
+    margin: 0 35px 20px 35px;
+  }
+}
