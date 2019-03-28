@@ -33,7 +33,7 @@ h3:hover{
 }
 .gameImage{
   position: relative;
-  top: 50%; 
+  /*top: 50%; */
   box-shadow: 0 4px 8px 0 rgb(78, 15, 54), 0 6px 20px 0 rgb(78, 15, 54);
   margin-bottom: 15px!important;
 }
